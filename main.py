@@ -80,7 +80,7 @@ def update():
         emailMe(level, price, url)
 
 
-website = input("http:// or https://) >")
+website = input("Don't put (http:// or https://) just the link>")
 print()
 if "http://" not in website:
     website = ''.join(("http://", website))
